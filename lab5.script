@@ -1,0 +1,11 @@
+Script started on 2017年05月17日 (週三) 01時01分03秒
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab5 $[00m make
+g++ -c main.cpp
+g++ -c Hugeint.cpp
+g++ -o main main.o Hugeint.o
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab5 $[00m ./main
+Input a huge integer : 12345678910
+12345678910 + 28825252 = 12374504162
+314159265358979323846 - 12345678910 = 314159265346633644936
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab5 $[00m 
+Script done on 2017年05月17日 (週三) 01時01分22秒

@@ -7,6 +7,7 @@ int main()
 	Hugeint y(28825252);
 	Hugeint z("314159265358979323846");
 	Hugeint result;
+	cout<<"Input a huge integer : ";
 	cin>>x;
 	result=x+y;
 	cout<<x<<" + "<<y<<" = "<<result<<endl;
